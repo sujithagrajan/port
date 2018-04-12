@@ -12,7 +12,7 @@ class Footer extends Component {
       <footer className="footer text-center">
         <div className="container">
           <small className="copyright">
-            <span style={{ fontWeight: '500' }}>
+            {/* <span style={{ fontWeight: '500' }}>
               <FontAwesomeIcon
                 icon={faCode}
                 style={{ fontWeight: '100', marginRight: '5px' }}
@@ -35,7 +35,7 @@ class Footer extends Component {
                   marginRight: '5px',
                 }}
               />
-            </span>
+            </span> */}
           </small>
         </div>
       </footer>
