@@ -8,7 +8,7 @@
 /* ======= Base ======= */
 body {
   font-family: 'Roboto', sans-serif !important;
-  background: #f5f5f5 !important;
+  background: grey !important;
   font-size: 14px !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
@@ -102,6 +102,7 @@ a.btn:hover {
 }
 .header {
   background: #607d8b;
+  
   color: #fff;
 }
 .header a {

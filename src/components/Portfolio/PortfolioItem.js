@@ -10,14 +10,12 @@ class PortfolioItem extends Component {
       githubLink,
       stack,
       image,
+      projectLink,
       projectUrl,
       description,
     } = this.props;
 
-    /*const renderStack = stack.map(item => {
-      return <li key={item}>{item}</li>
-    });*/
-
+  
     return (
       <div className="item col-lg-4 col-6">
         <div className="item-inner">
@@ -31,6 +29,7 @@ class PortfolioItem extends Component {
                   className="btn mb-1"
                 >
                   {githubLink}
+
                 </a>
                 <br />
                 <a
@@ -39,7 +38,7 @@ class PortfolioItem extends Component {
                   rel="noreferrer noopener"
                   className="btn"
                 >
-                  Preview
+                  {projectLink}
                 </a>
               </div>
             </div>
@@ -69,7 +68,9 @@ PortfolioItem.propTypes = {
   context: PropTypes.string,
   githubUrl: PropTypes.string,
   githubLink: PropTypes.string,
+  projectLink: PropTypes.string,
   projectUrl: PropTypes.string,
+  
   stack: PropTypes.array,
   image: PropTypes.string,
   description: PropTypes.string,

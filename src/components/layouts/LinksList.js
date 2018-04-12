@@ -7,9 +7,9 @@ import LinksItem from './LinksItem';
 
 const items = [
   'about',
-  'experiences',
-  'skills',
-  'education',
+  // 'experiences',
+  // 'skills',
+  // 'education',
   'projects',
   'contact',
 ];

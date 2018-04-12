@@ -1,125 +1,91 @@
 import React, { Component } from 'react';
 import PortfolioItem from './PortfolioItem';
 
-import brooklyn from '../../img/brooklyn3.jpg';
-import portfolio from '../../img/portfolio.jpg';
-import wondyland from '../../img/wondyland.jpg';
-import monsterwin from '../../img/monsterwin.jpg';
-import movegroove from '../../img/movegroove.jpg';
-import catmash from '../../img/catmash.jpg';
-import bbt from '../../img/bbt.jpg';
+import findyourslice from '../../img/findyourslice.PNG';
+import portal from '../../img/portal.PNG';
+import logparser from '../../img/logparser.PNG';
+
+import weather from '../../img/weather.PNG';
+import ToDoApp from '../../img/ToDoApp.PNG';
 
 const items = [
   {
-    name: 'Boulder Bike Tour',
-    context: 'Demo Website (2018)',
-    githubUrl: 'https://github.com/franckboudraa/oc-boulderbike-client',
+    name: 'Find Your Slice',
+    context: 'An app to find restaurants',
+    githubUrl: 'https://github.com/sujithagrajan/find-your-slice-v1',
     githubLink: 'View on Github',
-    projectUrl: 'http://boulderbike.franckboudraa.me',
+    projectLink: 'Preview',
+    projectUrl: 'https://sg-find-your-slice.herokuapp.com/',
     stack: [
       'React',
-      'Redux',
-      'Semantic UI',
-      'Ruby on Rails',
-      'PostgreSQL',
-      'Flickr API',
-      'Google Maps API',
-      'AWS S3, RDS (front, DB)',
-      'Heroku (back)'
+      'Express',
+      'Javascript',
+      'Bootstrap'
+     
     ],
     description: '',
-    image: bbt
+    image: findyourslice
   },
   {
-    name: 'Cat Mash',
-    context: 'Demo Application (2018)',
-    githubUrl: 'https://github.com/franckboudraa/catmash-front',
-    githubLink: 'View on Github',
-    projectUrl: 'http://catmash.franckboudraa.me',
+    name: 'Portal',
+    context: 'Online portfolio for Boot camp students similar to Hired.com',
+    githubLink: 'Sorry No Github',
+    projectLink: 'Preview',
+    projectUrl: 'https://origin-portal.herokuapp.com/',
     stack: [
       'NodeJS',
       'React',
-      'Semantic UI',
-      'Redis',
-      'AWS (front)',
-      'Heroku (back)'
-    ],
-    description: '',
-    image: catmash
-  },
-  {
-    name: 'Move&Groove Fitness',
-    context: 'Rails project for OC Fullstack path (2018)',
-    githubUrl: 'https://github.com/franckboudraa/oc-movegroove',
-    githubLink: 'View on Github',
-    projectUrl: 'https://movegroove.herokuapp.com',
-    stack: [
-      'Ruby on Rails',
-      'PostgreSQL',
-      'Bootstrap 4',
-      'Devise',
-      'Facebook OAuth',
-      'Sendgrid API',
-      'Heroku'
-    ],
-    description: '',
-    image: movegroove
-  },
-  {
-    name: 'Personal Portfolio',
-    context: 'Single Page App (2018)',
-    githubUrl: 'https://github.com/franckboudraa/personal-portfolio',
-    githubLink: 'View on Github',
-    projectUrl: 'http://www.franckboudraa.me',
-    stack: ['Javascript', 'React', 'Redux', 'Bootstrap 4', 'Formspree API'],
-    description: '',
-    image: portfolio
-  },
-  {
-    name: 'Brooklyn Outdoor Film Festival',
-    context: 'Mockup website for OC Fullstack path (2018)',
-    githubUrl: 'https://github.com/franckboudraa/oc-brooklyn-festival',
-    githubLink: 'View on Github',
-    projectUrl: 'http://www.franckboudraa.me/oc-brooklyn-festival',
-    stack: ['HTML5, CSS3', 'JS', 'Bootstrap 4', 'jQuery', 'Google Maps API'],
-    description: '',
-    image: brooklyn
-  },
-  {
-    name: 'Games Platform #2',
-    context: 'Entrepreneurial Project (2012-2014)',
-    githubUrl: null,
-    githubLink: 'No Github sorry',
-    projectUrl:
-      'https://web.archive.org/web/20141102111929/http://www.monsterwin.fr:80/',
-    stack: [
-      'HTML5',
-      'CSS3',
-      'JS',
-      'jQuery',
+      'Loopback',
+      'MongoDB',
+      'Amazon S3',
       'Bootstrap',
-      'PHP5',
-      'MySQL',
-      'Flash/AS3',
-      'Memcached',
-      'Amazon/Facebook API',
-      'AWS',
-      'OVH Dedicated'
+      'Stylus'
     ],
-    description: '(115k users)',
-    image: monsterwin
+    description: '',
+    image: portal
   },
   {
-    name: 'Games Platform #1',
-    context: 'Online games platform (2005-2008)',
-    githubUrl: null,
-    githubLink: 'No Github in 2008',
-    projectUrl:
-      'https://web.archive.org/web/20071104134523/http://www.wondyland.com:80/index.php',
-    stack: ['HTML, CSS', 'JS', 'PHP4', 'MySQL', 'Flash/AS2', 'Amazon API'],
-    description: '(80k users)',
-    image: wondyland
-  }
+    name: 'Web Server Access Log Parser',
+    context: 'Tool to parse web server access log file',
+    githubUrl: 'https://github.com/sujithagrajan/WebServerAccessLogParser',
+    githubLink: 'View on Github',
+    
+    stack: [
+      'Java',
+      'MySQL'
+    ],
+    description: '',
+    image: logparser
+  },
+   {
+  name: 'To Do App',
+  context: 'A To Do App for adding todo items with priority',
+  githubLink: 'https://github.com/sujithagrajan/startnow-react100-vstda',
+  projectLink: 'Preview',
+  projectUrl: 'https://sg-react100-vstda.herokuapp.com/',
+  stack: [
+    'NodeJS',
+    'React',
+    'Express',
+    'Bootstrap'
+    ],
+  description: '',
+  image: ToDoApp
+  },
+  {
+    name: 'Weather Station ',
+    context: 'To collects real time environmental data and sends on a mobile device via BLE',
+    githubUrl: 'https://github.com/sujithagrajan/WeatherStation',
+    githubLink: 'View on Github',
+    
+    stack: [
+      'Embedded C',
+      ],
+    description: '',
+    image: weather
+  },
+
+  
 ];
 
 class PortfolioList extends Component {
@@ -132,7 +98,9 @@ class PortfolioList extends Component {
         githubLink,
         stack,
         image,
+        projectLink,
         projectUrl,
+        
         description
       }) => {
         return (
@@ -141,7 +109,9 @@ class PortfolioList extends Component {
             context={context}
             githubUrl={githubUrl}
             githubLink={githubLink}
+            projectLink={projectLink}
             projectUrl={projectUrl}
+            
             stack={stack}
             image={image}
             description={description}

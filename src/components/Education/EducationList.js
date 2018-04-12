@@ -35,14 +35,6 @@ const degrees = [
     degree: false
   },
   {
-    name: 'Stephen Grider Courses',
-    school: 'Udemy',
-    timeline: '2017-Present',
-    description:
-      '<ul class="pl-0"><li>GraphQL with React</li><li>Advanced React and Redux</li><li>Node with React: Fullstack development (Express, MongoDB)</li><li>Meteor and React for Realtime Apps</li><li>Modern React with Redux</li><li>...</li></ul><a href="https://www.udemy.com/user/franck-boudraa" target="_blank" rel="noopener noreferrer">Click to view full list</a>',
-    degree: false
-  },
-  {
     name: 'Miscellaneous Courses',
     school: 'Non-exhaustive list',
     timeline: '2005-Present',

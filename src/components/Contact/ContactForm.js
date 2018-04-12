@@ -69,7 +69,7 @@ class ContactForm extends Component {
       }
     } else {
       return (
-        <Form>
+        <Form method="POST">
           <FormGroup row>
             <Label for="exampleEmail" sm={2}>
               Email
