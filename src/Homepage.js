@@ -14,7 +14,7 @@ export default class Homepage extends Component {
     return (
       <Container className="wrapper">
         <About />
-        <Experiences /> 
+        {/* <Experiences />  */}
         </Container>
          
     );
