@@ -57,7 +57,7 @@ class ContactForm extends Component {
         return (
           <Alert color="success" className="text-center">
             <strong> Your message has been sent! Thank you!</strong>
-            <br /> I'll get back to you shortly!
+            <br /> I will get back to you shortly!
           </Alert>
         );
       } else {
