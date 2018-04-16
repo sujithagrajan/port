@@ -103,7 +103,8 @@ a.btn:hover {
 .header {
   background: #607d8b;
   
-  color: #fff;
+  color: #fff
+  ;
 }
 .header a {
   color: #fff;

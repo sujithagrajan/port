@@ -24,7 +24,7 @@ export const sendEmail = (emailFrom, message) => async dispatch => {
   try {
     // eslint-disable-next-line
     const submitForm = await axios.post(
-      'https://formspree.io/mwozweom',
+      'https://formspree.io/sujithagrajan02@gmail.com ',
       {
         data: {
           name: emailFrom,

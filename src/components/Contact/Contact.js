@@ -20,8 +20,28 @@ class Contact extends Component {
             alt=""
           /> */}
           <div className="dialog">
-            
-           
+            <p>
+              I am currently following the OpenClassrooms Full Stack Developer
+              Path.
+            </p>
+            <p>I am available for hire.</p>
+            <p>
+              <strong>My areas of expertise include:</strong>
+            </p>
+            <ul className="list-unstyled service-list">
+              <li>
+                <FontAwesomeIcon icon={faCheck} className="mr-2" /> Full Stack
+                development
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faCheck} className="mr-2" /> Front End
+                development with React
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faCheck} className="mr-2" /> Back End
+                development with NodeJS / Ruby on Rails
+              </li>
+            </ul>
           </div>
         </div>
         <ContactForm
