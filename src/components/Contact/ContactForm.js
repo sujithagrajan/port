@@ -56,8 +56,8 @@ class ContactForm extends Component {
       if (this.props.success === true) {
         return (
           <Alert color="success" className="text-center">
-            <strong>Your message has been sent! Thank you!</strong>
-            <br />I'll get back to you shortly!
+            <strong> Your message has been sent! Thank you!</strong>
+            <br /> I'll get back to you shortly!
           </Alert>
         );
       } else {
